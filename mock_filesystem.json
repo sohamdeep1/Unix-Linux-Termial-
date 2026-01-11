@@ -1,0 +1,82 @@
+{
+  "/": {
+    "type": "directory",
+    "contents": {
+      "home": {
+        "type": "directory",
+        "contents": {
+          "student": {
+            "type": "directory",
+            "contents": {
+              "documents": {
+                "type": "directory",
+                "contents": {
+                  "readme.txt": {
+                    "type": "file",
+                    "content": "Welcome to the OS Simulator!\nThis is a sample text file.\nYou can use 'cat' to read files.",
+                    "size": 95,
+                    "modified": "2024-01-15 10:30:00"
+                  },
+                  "notes.txt": {
+                    "type": "file",
+                    "content": "Study notes:\n- CPU Scheduling algorithms\n- Memory management\n- Deadlock prevention",
+                    "size": 85,
+                    "modified": "2024-01-10 14:20:00"
+                  }
+                }
+              },
+              "projects": {
+                "type": "directory",
+                "contents": {
+                  "os_assignment.py": {
+                    "type": "file",
+                    "content": "# OS Assignment - CPU Scheduling\n\ndef round_robin(processes, quantum):\n    # Implementation here\n    pass",
+                    "size": 120,
+                    "modified": "2024-01-20 16:45:00"
+                  }
+                }
+              },
+              "welcome.txt": {
+                "type": "file",
+                "content": "Hello! Welcome to your home directory.\nFeel free to explore the file system using commands like ls, cd, and cat.",
+                "size": 108,
+                "modified": "2024-01-01 12:00:00"
+              },
+              "hello.txt": {
+                "type": "file",
+                "content": "\"hello world\"\n",
+                "size": 14,
+                "modified": "2025-10-23 22:54:19"
+              },
+              "testing": {
+                "type": "directory",
+                "contents": {},
+                "modified": "2025-10-23 21:01:41"
+              }
+            }
+          }
+        }
+      },
+      "etc": {
+        "type": "directory",
+        "contents": {
+          "hosts": {
+            "type": "file",
+            "content": "127.0.0.1\tlocalhost\n127.0.1.1\tsimulator",
+            "size": 35,
+            "modified": "2024-01-01 10:00:00"
+          }
+        }
+      },
+      "var": {
+        "type": "directory",
+        "contents": {
+          "log": {
+            "type": "directory",
+            "contents": {}
+          }
+        }
+      }
+    }
+  }
+}
